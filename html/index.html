@@ -16,12 +16,12 @@
         <form action="">
             <div>
                 <label for="nome">Nome:</label>
-                <input type="text" name="name" id="name" placeholder=" Digite seu nome completo" required><br>
+                <input type="text" name="name" id="name" placeholder=" Digite seu nome completo" ><br>
             </div>
 
             <div class="input-container">
              <label for="ocupacao">Ocupação:</label>
-             <input list="ocupacoes" id="ocupacao" name="ocupacao" placeholder=" Digite ou escolha uma opção abaixo" required>
+             <input list="ocupacoes" id="ocupacao" name="ocupacao" placeholder=" Digite ou escolha uma opção abaixo" >
                 <datalist id="ocupacoes">
                     <option value="Médico">
                     <option value="Professor">
@@ -30,35 +30,37 @@
                 </datalist><br>
             </div>
             <div> 
-                <label for="atuacao">Área de atuação:</label>
-                <input type="text" name="atuacao" id="arAtuacao"placeholder=" Digite aqui sua área de atuação" required><br>
+                <label for="dataNasc">Data Nascimento:</label>
+                <input type="date" name="dataNascimento" id="dataN" ><br>
             </div>
             
             <div>
                 <label for="habilidades">Habilidades principais:</label>
-                <input type="text" required id="check-skills" placeholder=" Digite uma habilidade e pressione Enter"><br>
+                <input type="text"  id="check-skills" placeholder=" Digite uma habilidade e pressione Enter"><br>
              </div>
 
             <div>
                 <label for="links">Links externos:</label>
-                <input type="url" name="links" id="links" placeholder=" Cole aqui o link do seu perfil ou portfólio" required><br>
+                <input type="url" name="links" id="links" placeholder=" Cole aqui o link do seu perfil ou portfólio" ><br>
             </div>
 
-            <div id="entry-container">
-                    <label for="contato">Contatos:</label>
-                    <input type="text" id="contact" name="contato" placeholder="() 0000-0000" required><br>
-                    <div id="contact-container">
-                        <input type="text" name="email" id="email" placeholder=" Digite aqui o seu email" required><br>
-                    </div>
+            <div>
+                <label for="contato">Contatos:</label>
+                <input type="number" id="contact" name="contato" placeholder=" (xx) xxxx-xxxx" ><br>
             </div>    
 
-            <button id="btn-submit">Acesse seu futuro</button>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder=" Digite aqui o seu email" ><br>
+            </div>
+
+            <input type="button" id="btn-submit" value="Acesse seu futuro">
         </form>
         <p>Feito para ajudar profissionais a expandirem sua rede de contatos.</p>
         <footer>        
             
-            <b>© Todos os direitos reservados</b><br>
             <a href="linkedin.com/in/ferreiraj0ao/" target="_blank" ><img src="/imgs/LinkedIn.png" alt="Logo do LinkedIn" id="img-linkedin"></a>
+            <b>© Todos os direitos reservados</b><br>
         </footer>
     </div>
     <script src="/js/script.js"></script>

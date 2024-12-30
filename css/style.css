@@ -34,6 +34,7 @@ input{
     font-family: Inter;
     font-weight: 500;
     font-size: 20px;
+    cursor: pointer;
 }
 p{
     font-family: Inter;
